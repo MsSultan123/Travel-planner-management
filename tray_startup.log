@@ -1,0 +1,70 @@
+Requirement already satisfied: Flask==3.0.2 in c:\travel management system\.venv\lib\site-packages (from -r requirements.txt (line 1)) (3.0.2)
+Requirement already satisfied: Flask-SQLAlchemy==3.1.1 in c:\travel management system\.venv\lib\site-packages (from -r requirements.txt (line 2)) (3.1.1)
+Requirement already satisfied: Flask-Login==0.6.3 in c:\travel management system\.venv\lib\site-packages (from -r requirements.txt (line 3)) (0.6.3)
+Requirement already satisfied: Flask-WTF==1.2.1 in c:\travel management system\.venv\lib\site-packages (from -r requirements.txt (line 4)) (1.2.1)
+Requirement already satisfied: Flask-Mail==0.9.1 in c:\travel management system\.venv\lib\site-packages (from -r requirements.txt (line 5)) (0.9.1)
+Requirement already satisfied: python-dotenv==1.0.1 in c:\travel management system\.venv\lib\site-packages (from -r requirements.txt (line 6)) (1.0.1)
+Requirement already satisfied: email-validator==2.1.0.post1 in c:\travel management system\.venv\lib\site-packages (from -r requirements.txt (line 7)) (2.1.0.post1)
+Requirement already satisfied: mysql-connector-python==8.0.33 in c:\travel management system\.venv\lib\site-packages (from -r requirements.txt (line 8)) (8.0.33)
+Requirement already satisfied: pymysql==1.1.0 in c:\travel management system\.venv\lib\site-packages (from -r requirements.txt (line 9)) (1.1.0)
+Requirement already satisfied: SQLAlchemy-Utils==0.41.1 in c:\travel management system\.venv\lib\site-packages (from -r requirements.txt (line 10)) (0.41.1)
+Requirement already satisfied: Flask-Migrate==4.0.5 in c:\travel management system\.venv\lib\site-packages (from -r requirements.txt (line 11)) (4.0.5)
+Requirement already satisfied: Werkzeug==3.0.1 in c:\travel management system\.venv\lib\site-packages (from -r requirements.txt (line 12)) (3.0.1)
+Requirement already satisfied: cryptography==42.0.5 in c:\travel management system\.venv\lib\site-packages (from -r requirements.txt (line 13)) (42.0.5)
+Requirement already satisfied: Flask-Limiter==3.5.0 in c:\travel management system\.venv\lib\site-packages (from -r requirements.txt (line 14)) (3.5.0)
+Requirement already satisfied: Flask-Talisman==1.1.0 in c:\travel management system\.venv\lib\site-packages (from -r requirements.txt (line 15)) (1.1.0)
+Requirement already satisfied: Pillow==11.2.1 in c:\travel management system\.venv\lib\site-packages (from -r requirements.txt (line 16)) (11.2.1)
+Requirement already satisfied: APScheduler==3.11.0 in c:\travel management system\.venv\lib\site-packages (from -r requirements.txt (line 17)) (3.11.0)
+Requirement already satisfied: Jinja2>=3.1.2 in c:\travel management system\.venv\lib\site-packages (from Flask==3.0.2->-r requirements.txt (line 1)) (3.1.6)
+Requirement already satisfied: itsdangerous>=2.1.2 in c:\travel management system\.venv\lib\site-packages (from Flask==3.0.2->-r requirements.txt (line 1)) (2.2.0)
+Requirement already satisfied: click>=8.1.3 in c:\travel management system\.venv\lib\site-packages (from Flask==3.0.2->-r requirements.txt (line 1)) (8.1.8)
+Requirement already satisfied: blinker>=1.6.2 in c:\travel management system\.venv\lib\site-packages (from Flask==3.0.2->-r requirements.txt (line 1)) (1.9.0)
+Requirement already satisfied: sqlalchemy>=2.0.16 in c:\travel management system\.venv\lib\site-packages (from Flask-SQLAlchemy==3.1.1->-r requirements.txt (line 2)) (2.0.40)
+Requirement already satisfied: wtforms in c:\travel management system\.venv\lib\site-packages (from Flask-WTF==1.2.1->-r requirements.txt (line 4)) (3.2.1)
+Requirement already satisfied: dnspython>=2.0.0 in c:\travel management system\.venv\lib\site-packages (from email-validator==2.1.0.post1->-r requirements.txt (line 7)) (2.7.0)
+Requirement already satisfied: idna>=2.0.0 in c:\travel management system\.venv\lib\site-packages (from email-validator==2.1.0.post1->-r requirements.txt (line 7)) (3.10)
+Requirement already satisfied: protobuf<=3.20.3,>=3.11.0 in c:\travel management system\.venv\lib\site-packages (from mysql-connector-python==8.0.33->-r requirements.txt (line 8)) (3.20.3)
+Requirement already satisfied: alembic>=1.9.0 in c:\travel management system\.venv\lib\site-packages (from Flask-Migrate==4.0.5->-r requirements.txt (line 11)) (1.15.2)
+Requirement already satisfied: MarkupSafe>=2.1.1 in c:\travel management system\.venv\lib\site-packages (from Werkzeug==3.0.1->-r requirements.txt (line 12)) (3.0.2)
+Requirement already satisfied: cffi>=1.12 in c:\travel management system\.venv\lib\site-packages (from cryptography==42.0.5->-r requirements.txt (line 13)) (1.17.1)
+Requirement already satisfied: limits>=2.8 in c:\travel management system\.venv\lib\site-packages (from Flask-Limiter==3.5.0->-r requirements.txt (line 14)) (5.1.0)
+Requirement already satisfied: ordered-set<5,>4 in c:\travel management system\.venv\lib\site-packages (from Flask-Limiter==3.5.0->-r requirements.txt (line 14)) (4.1.0)
+Requirement already satisfied: rich<14,>=12 in c:\travel management system\.venv\lib\site-packages (from Flask-Limiter==3.5.0->-r requirements.txt (line 14)) (13.9.4)
+Requirement already satisfied: typing-extensions>=4 in c:\travel management system\.venv\lib\site-packages (from Flask-Limiter==3.5.0->-r requirements.txt (line 14)) (4.13.2)
+Requirement already satisfied: tzlocal>=3.0 in c:\travel management system\.venv\lib\site-packages (from APScheduler==3.11.0->-r requirements.txt (line 17)) (5.3.1)
+Requirement already satisfied: Mako in c:\travel management system\.venv\lib\site-packages (from alembic>=1.9.0->Flask-Migrate==4.0.5->-r requirements.txt (line 11)) (1.3.10)
+Requirement already satisfied: pycparser in c:\travel management system\.venv\lib\site-packages (from cffi>=1.12->cryptography==42.0.5->-r requirements.txt (line 13)) (2.22)
+Requirement already satisfied: colorama in c:\travel management system\.venv\lib\site-packages (from click>=8.1.3->Flask==3.0.2->-r requirements.txt (line 1)) (0.4.6)
+Requirement already satisfied: deprecated>=1.2 in c:\travel management system\.venv\lib\site-packages (from limits>=2.8->Flask-Limiter==3.5.0->-r requirements.txt (line 14)) (1.2.18)
+Requirement already satisfied: packaging<26,>=21 in c:\travel management system\.venv\lib\site-packages (from limits>=2.8->Flask-Limiter==3.5.0->-r requirements.txt (line 14)) (25.0)
+Requirement already satisfied: markdown-it-py>=2.2.0 in c:\travel management system\.venv\lib\site-packages (from rich<14,>=12->Flask-Limiter==3.5.0->-r requirements.txt (line 14)) (3.0.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in c:\travel management system\.venv\lib\site-packages (from rich<14,>=12->Flask-Limiter==3.5.0->-r requirements.txt (line 14)) (2.19.1)
+Requirement already satisfied: greenlet>=1 in c:\travel management system\.venv\lib\site-packages (from sqlalchemy>=2.0.16->Flask-SQLAlchemy==3.1.1->-r requirements.txt (line 2)) (3.2.0)
+Requirement already satisfied: tzdata in c:\travel management system\.venv\lib\site-packages (from tzlocal>=3.0->APScheduler==3.11.0->-r requirements.txt (line 17)) (2025.2)
+Requirement already satisfied: wrapt<2,>=1.10 in c:\travel management system\.venv\lib\site-packages (from deprecated>=1.2->limits>=2.8->Flask-Limiter==3.5.0->-r requirements.txt (line 14)) (1.17.2)
+Requirement already satisfied: mdurl~=0.1 in c:\travel management system\.venv\lib\site-packages (from markdown-it-py>=2.2.0->rich<14,>=12->Flask-Limiter==3.5.0->-r requirements.txt (line 14)) (0.1.2)
+
+[notice] A new release of pip is available: 25.0.1 -> 25.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+Collecting pystray
+  Downloading pystray-0.19.5-py2.py3-none-any.whl.metadata (9.4 kB)
+Requirement already satisfied: pillow in c:\travel management system\.venv\lib\site-packages (11.2.1)
+Collecting six (from pystray)
+  Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Downloading pystray-0.19.5-py2.py3-none-any.whl (49 kB)
+Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+Installing collected packages: six, pystray
+Successfully installed pystray-0.19.5 six-1.17.0
+
+[notice] A new release of pip is available: 25.0.1 -> 25.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+Starting tray application... 
+Error: Tray application failed to start 
+Requirement already satisfied: pystray in c:\travel management system\.venv\lib\site-packages (0.19.5)
+Requirement already satisfied: pillow in c:\travel management system\.venv\lib\site-packages (11.2.1)
+Requirement already satisfied: six in c:\travel management system\.venv\lib\site-packages (from pystray) (1.17.0)
+
+[notice] A new release of pip is available: 25.0.1 -> 25.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+Starting tray application... 
+Error: Tray application failed to start 
